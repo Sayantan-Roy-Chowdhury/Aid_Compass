@@ -1,0 +1,19 @@
+{
+  "fresh_days": {
+    "high": 30,
+    "medium": 180,
+    "stale": 365
+  },
+  "source_weights": {
+    "official": 1.0,
+    "directory": 0.8,
+    "community": 0.6,
+    "demo": 0.75
+  },
+  "required_fields": [
+    "resource_id",
+    "name",
+    "source_url",
+    "last_verified"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "required": [
+    "headline",
+    "requested_needs",
+    "barrier_types",
+    "best_first_step",
+    "selected_resources",
+    "plan_a",
+    "plan_b",
+    "document_backpack",
+    "contact_drafts",
+    "confidence_notes",
+    "shareable_summary",
+    "revision_count",
+    "demo_data_notice"
+  ],
+  "max_contact_drafts": 3,
+  "max_primary_resources": 5
+}

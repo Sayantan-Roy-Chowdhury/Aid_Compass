@@ -1,0 +1,20 @@
+{
+  "avoid_by_default": [
+    "exact_address",
+    "full_name",
+    "date_of_birth",
+    "school_name",
+    "government_identifier",
+    "banking_information",
+    "passwords",
+    "detailed_medical_history",
+    "immigration_documents"
+  ],
+  "acceptable_generalizations": [
+    "city",
+    "neighborhood",
+    "age_band",
+    "language",
+    "accessibility_need"
+  ]
+}

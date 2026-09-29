@@ -1,0 +1,29 @@
+{
+  "transportation": [
+    "online",
+    "phone",
+    "delivery",
+    "closer location"
+  ],
+  "documents": [
+    "no listed documents",
+    "ask about alternatives"
+  ],
+  "schedule": [
+    "evening",
+    "weekend",
+    "remote"
+  ],
+  "language": [
+    "listed language match",
+    "ask about interpretation"
+  ],
+  "accessibility": [
+    "listed accommodation only"
+  ],
+  "contact_anxiety": [
+    "email draft",
+    "text draft",
+    "phone script"
+  ]
+}

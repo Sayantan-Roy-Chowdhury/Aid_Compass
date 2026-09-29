@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Scarborough",
+    "aliases": [
+      "Scarborough, Toronto",
+      "east Scarborough"
+    ],
+    "latitude": 43.7731,
+    "longitude": -79.2578
+  },
+  {
+    "name": "Downtown Toronto",
+    "aliases": [
+      "downtown",
+      "Toronto core"
+    ],
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  },
+  {
+    "name": "North York",
+    "aliases": [
+      "North York, Toronto"
+    ],
+    "latitude": 43.7615,
+    "longitude": -79.4111
+  },
+  {
+    "name": "Etobicoke",
+    "aliases": [
+      "Etobicoke, Toronto"
+    ],
+    "latitude": 43.6205,
+    "longitude": -79.5132
+  },
+  {
+    "name": "Toronto",
+    "aliases": [
+      "City of Toronto",
+      "GTA"
+    ],
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+]

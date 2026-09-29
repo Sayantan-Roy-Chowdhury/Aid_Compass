@@ -1,0 +1,18 @@
+{
+  "required": [
+    "timestamp",
+    "need_categories",
+    "barrier_types",
+    "unmet_needs",
+    "resource_ids_offered",
+    "demo_data"
+  ],
+  "forbidden": [
+    "raw_message",
+    "name",
+    "phone",
+    "email",
+    "exact_address",
+    "contact_drafts"
+  ]
+}

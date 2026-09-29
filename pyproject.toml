@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aidcompass-adk2"
+version = "0.1.0"
+description = "AidCompass: a graph-based community support navigation agent built with Google ADK 2.x"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "AidCompass Capstone Team"}]
+dependencies = [
+  "google-adk>=2.5.0,<3.0.0",
+  "pydantic>=2.10,<3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.9",
+]
+
+[tool.setuptools.packages.find]
+include = ["aidcompass*"]
+
+[tool.setuptools.package-data]
+aidcompass = [
+  "data/*.json",
+  "data/*.jsonl",
+  "skills/*/SKILL.md",
+  "skills/*/references/*",
+  "skills/*/assets/*",
+  "skills/*/scripts/*",
+  "evals/*.json",
+  "evals/*.md",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

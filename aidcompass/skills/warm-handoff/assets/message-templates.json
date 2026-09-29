@@ -1,0 +1,8 @@
+{
+  "email": {
+    "subject": "Question about {service}",
+    "body": "Hello, I am interested in {service}. Are you accepting new participants, and what should I do next? Thank you."
+  },
+  "phone_script": "Hi, I am calling about {service}. Could you tell me whether it is available and what I need to get started?",
+  "text": "Hi, I am interested in {service}. Are you accepting new participants, and is there anything I need to bring?"
+}

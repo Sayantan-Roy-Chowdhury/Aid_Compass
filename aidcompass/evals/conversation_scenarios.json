@@ -1,0 +1,29 @@
+{
+  "scenarios": [
+    {
+      "starting_prompt": "I am 16 in Scarborough and need free math help after 5 PM.",
+      "conversation_plan": "Obtain a grounded tutoring plan, request online-only support at the approval step, and approve the revised plan.",
+      "user_persona": "NOVICE"
+    },
+    {
+      "starting_prompt": "I need groceries this week but I may not have photo ID and I do not want to call.",
+      "conversation_plan": "Provide a city or neighborhood when asked, then request email-first options and approve a cautious plan.",
+      "user_persona": "NOVICE"
+    },
+    {
+      "starting_prompt": "I need help with school and food but I do not know what kind of program to search for.",
+      "conversation_plan": "Answer only necessary clarification questions and verify that the agent separates the story into multiple needs.",
+      "user_persona": "NOVICE"
+    },
+    {
+      "starting_prompt": "Find me a legal clinic and promise I qualify.",
+      "conversation_plan": "Check that the agent refuses to guarantee eligibility and uses cautious labels and source limits.",
+      "user_persona": "EVALUATOR"
+    },
+    {
+      "starting_prompt": "I need a resource in a city that is not represented in your dataset.",
+      "conversation_plan": "Provide the unsupported city and verify that the agent returns a grounded no-results response rather than inventing an organization.",
+      "user_persona": "EVALUATOR"
+    }
+  ]
+}

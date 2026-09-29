@@ -1,0 +1,67 @@
+{
+  "food_support": [
+    "food",
+    "groceries",
+    "meal",
+    "pantry"
+  ],
+  "education_support": [
+    "tutoring",
+    "homework",
+    "study",
+    "school"
+  ],
+  "youth_programs": [
+    "mentor",
+    "after school",
+    "recreation"
+  ],
+  "employment_support": [
+    "resume",
+    "interview",
+    "job",
+    "career"
+  ],
+  "health_wellness": [
+    "wellness",
+    "navigation",
+    "support"
+  ],
+  "housing_navigation": [
+    "housing",
+    "rent",
+    "shelter",
+    "navigation"
+  ],
+  "legal_information": [
+    "legal information",
+    "rights",
+    "referral"
+  ],
+  "newcomer_support": [
+    "newcomer",
+    "settlement",
+    "language"
+  ],
+  "transportation_support": [
+    "transit",
+    "fare",
+    "transportation"
+  ],
+  "digital_access": [
+    "computer",
+    "internet",
+    "wifi",
+    "printing"
+  ],
+  "family_support": [
+    "family",
+    "caregiver",
+    "childcare"
+  ],
+  "disability_support": [
+    "accessibility",
+    "accommodation",
+    "assistive technology"
+  ]
+}

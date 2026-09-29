@@ -1,0 +1,24 @@
+flowchart LR
+  S([START]) --> C[Capture request] --> G{Boundary Guardian}
+  G -->|SAFETY| SR[Safety response]
+  G -->|CONTINUE| I[Signal Lens]
+  I --> Q{Clarification router}
+  Q -->|CLARIFY| H1[Human clarification] --> MC[Merge clarification] --> I
+  Q -->|SEARCH| R[Resource Scout] --> F{Candidate router}
+  F -->|NO_RESULTS| NR[No-results renderer]
+  F -->|FOUND| A[Scout Swarm anchor]
+  A --> P0[Candidate passthrough] --> J[Evidence Join]
+  A --> E[Eligibility Lens] --> J
+  A --> B[Barrier Breaker] --> J
+  A --> T[Trust Radar] --> J
+  A --> X[Access Mapper] --> J
+  J --> ME[Merge evidence] --> RK[Matchmaker] --> SRK[Save canonical ranking]
+  SRK --> PW[Plan Weaver] --> CG[Canonical Plan Grounder] --> SP[Save plan]
+  SP --> PC[Plan Critic] --> CR{Critique router}
+  CR -->|REVISE| PR[Plan Repair] --> CG
+  CR -->|FALLBACK| FB[Conservative Fallback Builder] --> HG[Human Navigator Gate]
+  CR -->|READY| HG
+  HG --> AR{Approval router}
+  AR -->|REVISE| UR[Human-feedback Replanner] --> CG
+  AR -->|CANCEL| CX[Cancelled renderer]
+  AR -->|APPROVE| CP[Community Pulse] --> OUT[Final renderer]
