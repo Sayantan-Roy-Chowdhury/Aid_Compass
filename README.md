@@ -1,8 +1,8 @@
 # AidCompass — an ADK 2.x graph agent for community-support navigation
 
-AidCompass is a **no-wrong-door community support navigator**. A user can describe a
-messy real-life situation in ordinary language. The system converts that story into a
-privacy-minimized support profile, searches a curated resource store, evaluates
+AidCompass is a **community support navigator**. A user can describe a
+messy real life situation in ordinary language. The system converts that story into a
+profile, searches a curated resource store, evaluates
 eligibility and access barriers in parallel, ranks matches transparently, builds Plan A
 and Plan B, audits the plan, and pauses for human approval before finalizing it.
 
